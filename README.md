@@ -1,14 +1,13 @@
-# CRUD de Professores (Fastify + TypeScript + Prisma)
+# Atividade: Redirecionamento e Middleware
 
-Este projeto tem como objetivo implementar um CRUD completo da entidade Teacher (Professor) utilizando as tecnologias Fastify, TypeScript e Prisma ORM.
-Ele dá continuidade ao desenvolvimento anterior do CRUD de alunos (Student), expandindo a aplicação para gerenciar também o cadastro de professores no sistema.
+Este projeto implementa uma API REST construída com Fastify, TypeScript e Prisma ORM, integrada a um fluxo de requisições avançado utilizando middlewares globais, hooks de autenticação e mecanismos de redirecionamento condicional.
 
 ## Instalação de Dependências
 
 ### 1. Clonar o repositório
 ```bash
-git clone https://github.com/j-nilton/professores-crud.git
-cd professores-crud
+git clone https://github.com/j-nilton/middleware.git
+cd middleware
 ```
 
 ### 2. Instalar dependências
@@ -26,5 +25,5 @@ npx prisma generate
 
 ### 4. Inicie o servidor
 ```bash
-npx prisma studio
+npm run dev
 ```
